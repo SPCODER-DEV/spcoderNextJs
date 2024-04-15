@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import ContactInfoBar from './ContactInfoBar'
+
+import Links from './Links'
 
 export default function Navbare() {
   return (
@@ -15,7 +16,7 @@ export default function Navbare() {
         <div><p className='text-2xl font-bold cursor-pointer'>Logo</p></div>
     </div>
    
-    <ContactInfoBar/>
+    <Links/>
 
     </div>
  
